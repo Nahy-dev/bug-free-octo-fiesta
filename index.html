@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ultimate Discord Webhook Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>⚡ Discord Webhook Builder</h1>
+
+  <h2>Webhook</h2>
+  <input id="webhook" placeholder="Webhook URL">
+
+  <h2>Message</h2>
+  <input id="username" placeholder="Nom du webhook">
+  <input id="avatar" placeholder="Avatar URL">
+  <textarea id="content" placeholder="Message normal (content)"></textarea>
+
+  <h2>Embed</h2>
+  <input id="title" placeholder="Titre">
+  <input id="url" placeholder="URL du titre">
+  <textarea id="description" placeholder="Description de l'embed"></textarea>
+  <input id="color" placeholder="Couleur HEX (#5865F2)">
+  <input id="timestamp" placeholder="Timestamp (auto si vide)">
+
+  <h2>Author</h2>
+  <input id="authorName" placeholder="Nom de l'auteur">
+  <input id="authorIcon" placeholder="Icon URL">
+  <input id="authorUrl" placeholder="URL auteur">
+
+  <h2>Images</h2>
+  <input id="thumbnail" placeholder="Thumbnail URL">
+  <input id="image" placeholder="Image URL">
+
+  <h2>Footer</h2>
+  <input id="footerText" placeholder="Footer texte">
+  <input id="footerIcon" placeholder="Footer icon URL">
+
+  <h2>Field</h2>
+  <input id="fieldName" placeholder="Nom du field">
+  <input id="fieldValue" placeholder="Valeur du field">
+  <label>
+    <input type="checkbox" id="inline"> Inline
+  </label>
+
+  <h2>Bouton</h2>
+  <input id="buttonLabel" placeholder="Texte bouton">
+  <input id="buttonUrl" placeholder="URL bouton">
+
+  <button onclick="send()">🚀 Envoyer</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
